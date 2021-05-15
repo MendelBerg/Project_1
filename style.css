@@ -47,6 +47,11 @@ html {
   margin-left: 10px;
 }
 
+._container {
+  width: 1140px;
+  margin: 0px auto;
+}
+
 .header {
   width: 1140px;
   height: 62px;
@@ -224,6 +229,118 @@ html {
 .customers__logo {
   -webkit-filter: brightness(0);
           filter: brightness(0);
+}
+
+.inbox {
+  height: 790px;
+  background-color: #fcf0e3;
+}
+
+.inbox__container {
+  padding: 115px 0px 101px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.inbox__connect {
+  padding-top: 27px;
+}
+
+.inbox__img {
+  width: 425px;
+  height: 510px;
+  margin-bottom: 15px;
+}
+
+.inbox__text {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(43, 41, 45, 0.6);
+  margin: 0;
+}
+
+.inbox__manage {
+  width: 519px;
+}
+
+.manage__content {
+  padding: 0px 30px;
+}
+
+.manage__intro {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  color: #f1592b;
+}
+
+.manage__title {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+
+.manage__text {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.manage__comment {
+  margin-top: 44px;
+}
+
+.comment {
+  height: 213px;
+  padding: 30px;
+  background-color: #fff;
+  border-bottom: 4px solid #0185d0;
+}
+
+.comment__text {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 28px;
+}
+
+.comment__text span {
+  font-weight: bold;
+}
+
+.comment__account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.comment__img {
+  height: 40px;
+  width: 40px;
+  margin-right: 11px;
+}
+
+.comment__data > * {
+  margin: 0;
+  padding: 0;
+}
+
+.comment__name {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.comment__position {
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(43, 41, 45, 0.6);
 }
 
 .footer {
