@@ -1,0 +1,46 @@
+.communicate {
+  &__container {
+  }
+
+  &__headline {
+    display: flex;
+    margin-bottom: 16px;
+  }
+
+  &__info {
+    margin-right: 193px;
+  }
+
+  &__content {
+    width: 461px;
+  }
+
+  &__btn {
+    margin-top: 39px;
+  }
+}
+
+.more-communicate {
+  display: flex;
+  justify-content:space-between;
+  padding-top: 41px;
+
+  font-size: 18px;
+  line-height: 26px;
+
+  &__item {
+    width: 360px;
+  }
+
+  &__text {
+    margin: 0px 0px 15px 0px;
+    span {
+      font-weight: bold;
+    }
+  }
+
+  &__link {
+    font-weight: bold;
+    color: #3040c4;
+  }
+}
