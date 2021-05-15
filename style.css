@@ -47,6 +47,10 @@ html {
   margin-left: 10px;
 }
 
+.action-button_black-text {
+  color: #000;
+}
+
 ._container {
   width: 1140px;
   margin: 0px auto;
@@ -77,6 +81,10 @@ html {
 
 .content__intro_blue {
   color: #0189D1;
+}
+
+.content__intro_black {
+  color: #2B292D;
 }
 
 .content__title {
@@ -396,6 +404,77 @@ html {
 .more-communicate__link {
   font-weight: bold;
   color: #3040c4;
+}
+
+.audience {
+  margin-top: 110px;
+  background: rgba(0, 161, 198, 0.07);
+  height: 983px;
+  padding: 110px 0px;
+}
+
+.audience__headline {
+  text-align: center;
+  width: 555px;
+  margin: 0px auto 111px;
+}
+
+.audience__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 34px;
+}
+
+.cards {
+  padding: 0px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cards__item {
+  border-radius: 8px;
+  background-color: #fff;
+  width: 262px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards__item:hover {
+  background-color: #3141c5;
+  cursor: pointer;
+}
+
+.cards__item:hover .cards__title {
+  color: #fff;
+}
+
+.cards__img {
+  margin: 22px 0px;
+}
+
+.cards__title {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
 }
 
 .footer {

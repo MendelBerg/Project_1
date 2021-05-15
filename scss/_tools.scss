@@ -17,6 +17,10 @@
     width: 158px;
     margin-left: 10px;
   }
+
+  &_black-text {
+    color:#000;
+  }
 }
 
 ._container {
@@ -54,6 +58,10 @@
 
     &_blue {
       color: #0189D1;
+    }
+
+    &_black {
+      color: #2B292D;;
     }
   }
 

@@ -1,0 +1,70 @@
+.audience {
+  margin-top: 110px;
+  background: rgba(0, 161, 198, 0.07);
+  height: 983px;
+  padding: 110px 0px;
+
+  &__container {
+  }
+
+  &__headline {
+    text-align: center;
+    width: 555px;
+    margin: 0px auto 111px;
+  }
+
+  &__text {
+  }
+
+  &__content {
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+  }
+
+  &__cards {
+  }
+}
+
+.cards {
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    border-radius: 8px;
+    background-color: #fff;
+    width: 262px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover {
+      background-color: #3141c5;
+      cursor: pointer;
+
+      .cards__title {
+        color: #fff;
+      }
+    }
+  }
+
+  &__img {
+    margin: 22px 0px;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
+
