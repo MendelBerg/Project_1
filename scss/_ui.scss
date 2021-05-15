@@ -1,0 +1,20 @@
+.action-button {
+  height: 48px;
+  width: 160px;
+  border-radius: 2px;
+  background-color: #3040c4;
+  border: none;
+  padding: 17px 28px 18px;
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 13px;
+  color: #fff;
+
+  &_white {
+    background-color: #fff;
+    color: #3040c4;
+    width: 158px;
+    margin-left: 10px;
+  }
+}
