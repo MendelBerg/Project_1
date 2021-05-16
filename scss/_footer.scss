@@ -3,26 +3,23 @@
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
-}
 
-.footer__line {
-  border-top: 1px solid #2b292d;
-  width: 100%;
-  opacity: 0.1;
-  margin: 0;
+  &__line {
+    border-top: 1px solid #2b292d;
+    width: 100%;
+    opacity: 0.1;
+    margin: 0;
+  }
 }
-
 .footer-navigation {
   width: 1140px;
   margin: 0px auto;
   height: 338px;
   display: flex;
 }
-
 .about-company {
   margin-top: 43px;
 }
-
 .footer-description {
   font-size: 18px;
   line-height: 26px;
@@ -30,47 +27,43 @@
   margin-top: 26px;
   color: rgba(43, 41, 45, 0.6);
 }
-
 .downloads {
   margin-top: 25px;
-}
 
-.downloads__item {
-  margin-right: 10px;
+  &__item {
+    margin-right: 10px;
+  }
 }
-
 .additional-navigation {
   margin-top: 60px;
   margin-left: 126px;
   display: flex;
+  &__column {
+    margin-right: 29px;
+  }
 }
-
-.additional-navigation__column {
-  margin-right: 29px;
-}
-
 .nav-links {
   width: 265px;
-}
 
-.nav-links__title {
-  margin-top: 0;
-  margin-bottom: 18px;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 28px;
-}
+  &__title {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+  }
 
-.nav-links__list {
-  list-style-type: none;
-  padding: 0;
-}
-.nav-links__item {
-  font-size: 18px;
-  line-height: 30px;
-  color: rgba(43, 41, 45, 0.6);
-}
+  &__list {
+    list-style-type: none;
+    padding: 0;
+  }
 
+  &__item {
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+}
 .footer-links {
   width: 1140px;
   height: 50px;
@@ -78,28 +71,25 @@
   display: flex;
   align-items: center;
 }
-
 .terms {
   font-size: 14px;
   line-height: 22px;
+
+  &__item {
+    text-decoration: none;
+    color: rgba(43, 41, 45, 0.6);
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 }
-
-.terms__item {
-  text-decoration: none;
-  color: rgba(43, 41, 45, 0.6);
-
-  margin-right: 22px;
-}
-
-.terms__item:last-child {
-  margin-right: 0;
-}
-
 .social-links {
   margin-left: auto;
+
+  &__item {
+    margin-left: 20px;
+  }
 }
 
-.social-links__item {
-  margin-left: 20px;
-}
 

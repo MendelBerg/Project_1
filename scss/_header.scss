@@ -3,61 +3,63 @@
   height: 62px;
   margin: auto;
   display: flex;
-}
 
+  &__button {
+  }
+}
 .logo {
   display: flex;
-}
 
-.logo__image {
-  width: 60px;
-  height: 60px;
-  margin-right: 15px;
-}
+  &__image {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
 
-.logo__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-.logo__name {
-  font-size: 20px;
-  line-height: 25px;
-  font-weight: 700;
-}
+  &__name {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+  }
 
-.logo__description {
-  font-size: 18px;
-  line-height: 25px;
-  color: rgba(43, 41, 45, 0.6);
+  &__description {
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6);
+  }
 }
 
 .navigation {
   margin: 7px 75px 0px auto;
-}
 
-.navigation__item {
-  color: #2b292d;
-  text-decoration: none;
-  line-height: 25px;
-  font-size: 18px;
-  margin-right: 49px;
-}
+  &__item {
+    color: #2b292d;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 18px;
+    margin-right: 49px;
 
-.navigation__item:last-child {
-  margin-right: 0;
-}
+    &:last-child {
+      margin-right: 0;
+    }
 
-.navigation__item_selected {
-  font-weight: 700;
-}
+    &_selected {
+      font-weight: 700;
+    }
+  }
 
-.navigation__arrow {
-  display: inline-block;
-  vertical-align: middle;
-  width: 8px;
-  height: 5px;
-  background-image: url(img/Arrow.svg);
-  margin-left: 11px;
+  &__arrow {
+    display: inline-block;
+    vertical-align: middle;
+    width: 8px;
+    height: 5px;
+    background-image: url(img/Arrow.svg);
+    margin-left: 11px;
+  }
 }
