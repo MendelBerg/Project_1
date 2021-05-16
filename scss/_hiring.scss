@@ -70,7 +70,7 @@
         color: #fff;
         opacity: 1;
         &::after {
-          background-image: url('../img/arrow-left-white.svg');
+          background-image: url('img/arrow-left-white.svg');
         }
       }
     }
@@ -94,9 +94,9 @@
 
     &::after {
       content: '';
-      width: 7.41px;
+      width: 7px;
       height: 12px;
-      background-image: url('../img/arrow-left-grey.svg');
+      background-image: url('img/arrow-left-grey.svg');
       position: absolute;
       top: 33px;
       right: 25px;

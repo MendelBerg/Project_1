@@ -984,7 +984,7 @@ html {
 }
 
 .jobs__option:hover .jobs__info::after {
-  background-image: url("../img/arrow-left-white.svg");
+  background-image: url("img/arrow-left-white.svg");
 }
 
 .jobs__name {
@@ -1006,12 +1006,133 @@ html {
 
 .jobs__info::after {
   content: '';
-  width: 7.41px;
+  width: 7px;
   height: 12px;
-  background-image: url("../img/arrow-left-grey.svg");
+  background-image: url("img/arrow-left-grey.svg");
   position: absolute;
   top: 33px;
   right: 25px;
+}
+
+.order {
+  padding: 50px 15px;
+  background-color: #f4f5f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media screen and (min-width: 400px) {
+  .order {
+    padding: 73px 0px 72px 0px;
+  }
+}
+
+.order__illustration {
+  max-width: 200px;
+}
+
+@media screen and (min-width: 400px) {
+  .order__illustration {
+    max-width: 269px;
+    margin-right: 121px;
+  }
+}
+
+.order__details {
+  max-width: 555px;
+}
+
+.order__title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.25px;
+  margin-top: 40px;
+}
+
+.order__text {
+  font-size: 22px;
+  line-height: 32px;
+  margin-top: 18px;
+}
+
+@media screen and (min-width: 400px) {
+  .order__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 26px;
+  }
+}
+
+.order__email {
+  margin: 0;
+  margin-top: 40px;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 2px;
+  height: 48px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 13px;
+}
+
+@media screen and (min-width: 400px) {
+  .order__email {
+    margin-top: 0;
+  }
+}
+
+.order__email::-webkit-input-placeholder {
+  color: #2b292d;
+}
+
+.order__email:-ms-input-placeholder {
+  color: #2b292d;
+}
+
+.order__email::-ms-input-placeholder {
+  color: #2b292d;
+}
+
+.order__email::placeholder {
+  color: #2b292d;
+}
+
+.order__button {
+  margin-top: 12px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+@media screen and (max-width: 399px) {
+  .order__button {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .order__button {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+}
+
+.order__terms {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(43, 41, 45, 0.6);
+}
+
+.order__terms-link {
+  color: #3142c6;
 }
 
 .footer {

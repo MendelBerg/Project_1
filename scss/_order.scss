@@ -1,0 +1,88 @@
+.order {
+  padding: 50px 15px;
+  background-color: #f4f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  @include media {
+    padding: 73px 0px 72px 0px;
+  }
+  &__illustration {
+    max-width: 200px;
+
+    @include media {
+      max-width: 269px;
+      margin-right: 121px;
+    }
+  }
+
+  &__details {
+    max-width: 555px;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    margin-top: 40px;
+  }
+
+  &__text {
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 18px;
+  }
+
+  &__form {
+    @include media {
+      display: flex;
+      margin-top: 26px;
+    }
+  }
+
+  &__email {
+    margin: 0;
+    margin-top: 40px;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 2px;
+    height: 48px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 13px;
+
+    @include media {
+      margin-top: 0;
+    }
+
+    &::placeholder {
+      color: #2b292d;
+    }
+  }
+
+  &__button {
+    margin-top: 12px;
+    flex-shrink: 0;
+
+    @media screen and (max-width: 399px) {
+      width: 100%;
+    }
+
+    @include media {
+      margin-top: 0;
+      margin-left: 10px;
+    }
+  }
+
+  &__terms {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+
+  &__terms-link {
+    color: #3142c6;
+  }
+}
