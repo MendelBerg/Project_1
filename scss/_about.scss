@@ -1,13 +1,28 @@
 .about {
+  padding: 46px 15px;
   width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content:space-between;
-  padding: 77px 130px 76px;
+  background-color: #f4f5f7;
+
+  @include media {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 130px 76px;
+  }
 }
 
 .article {
-  width: 555px;
+  &:last-child {
+    margin-top: 20px;
+
+    @include media {
+      margin: 0;
+    }
+  }
+
+  @include media {
+    width: 555px;
+  }
 
   &__title {
     font-weight: bold;
