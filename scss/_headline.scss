@@ -1,51 +1,97 @@
 .headline {
-  position: relative;
-  width: 1140px;
-  margin: auto;
-  margin-top: 76px;
-  display: flex;
-  padding-bottom: 77px;
+  width: 100%;
+  @include media {
+    position: relative;
+    width: 1140px;
+    margin: auto;
+    margin-top: 76px;
+    display: flex;
+    padding-bottom: 77px;
+  }
 
   &__content {
-    position: absolute;
-    z-index: 1;
+    margin: 35px 15px 33px;
+    @include media {
+      margin: 0;
+      position: absolute;
+      z-index: 1;
+    }
   }
 
   &__title {
-    height: 165px;
-    width: 754px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.3125px;
     margin: 0;
 
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 78px;
-    letter-spacing: -0.5px;
-    z-index: 1;
+    @include media {
+      height: 165px;
+      width: 754px;
+      margin: 0;
+
+      font-weight: 700;
+      font-size: 80px;
+      line-height: 78px;
+      letter-spacing: -0.5px;
+      z-index: 1;
+    }
   }
 
   &__description {
-    margin-top: 34px;
-    margin-bottom: 0;
-    height: 102px;
-    width: 456px;
     font-size: 24px;
     line-height: 34px;
-    z-index: 1;
+    margin-top: 24px;
+    margin-bottom: 0;
+
+    @include media {
+      margin-top: 34px;
+      margin-bottom: 0;
+      height: 102px;
+      width: 456px;
+      font-size: 24px;
+      line-height: 34px;
+      z-index: 1;
+    }
   }
 
   &__bunner {
-    position: relative;
-    right: -105px;
-    top: 0;
-    margin-left: auto;
+    width: 100%;
+    margin-bottom: 36px;
+    @include media {
+      position: relative;
+      right: -105px;
+      top: 0;
+      margin-left: auto;
 
-    height: 448px;
-    width: 796px;
+      height: 448px;
+      width: 796px;
+    }
   }
 
   &__actions {
-    display: flex;
-    margin-top: 58px;
+    margin-top: 30px;
+
+    & > *:last-child {
+      margin-top: 15px;
+    }
+
+    @include media {
+      display: flex;
+      margin-top: 58px;
+
+      & > *:last-child {
+        margin-left: 10px;
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__action-btn {
+    @media screen and (max-width: 399px) {
+      width: 100%;
+    }
   }
 }
+
 

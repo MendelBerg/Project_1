@@ -1,19 +1,59 @@
 .header {
-  width: 1140px;
-  height: 62px;
-  margin: auto;
+  height: 64px;
+  width: 100%;
+  background-color: #fff;
   display: flex;
+  align-items: center;
+  padding-left: 15px;
+
+  @include media {
+    background-color: transparent;
+    width: 1140px;
+    height: 62px;
+    margin: auto;
+    display: flex;
+  }
+
+  &__menu-button {
+    width: 58px;
+    border: none;
+    border-left: 1px solid #00000026;
+    height: 100%;
+    margin-left: auto;
+    background: transparent;
+
+    @include media {
+      display: none;
+    }
+  }
+
+  &__menu-icon {
+    display: inline-block;
+    width: 18px;
+    height: 13px;
+    background-image: url('../img/burger.svg');
+  }
 
   &__button {
+    display: none;
+    @include media {
+      display: block;
+    }
   }
 }
 .logo {
   display: flex;
 
   &__image {
-    width: 60px;
-    height: 60px;
-    margin-right: 15px;
+    width: 48px;
+    height: 48px;
+    margin-right: 13px;
+
+    @include media {
+      width: 60px;
+      height: 60px;
+      margin-right: 15px;
+    }
   }
 
   &__text {
@@ -29,14 +69,17 @@
   }
 
   &__description {
-    font-size: 18px;
-    line-height: 25px;
-    color: rgba(43, 41, 45, 0.6);
+    display: none;
+    @include media {
+      font-size: 18px;
+      line-height: 25px;
+      color: rgba(43, 41, 45, 0.6);
+    }
   }
 }
 
 .navigation {
-  margin: 7px 75px 0px auto;
+  display: none;
 
   &__item {
     color: #2b292d;
@@ -61,5 +104,10 @@
     height: 5px;
     background-image: url(img/Arrow.svg);
     margin-left: 11px;
+  }
+
+  @include media {
+    display: block;
+    margin: 7px 75px 0px auto;
   }
 }
